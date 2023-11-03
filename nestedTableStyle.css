@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  border: 1px solid grey;
+}
+
+td {
+  border: 1px solid #000;
+}
+
+.row1 {
+  color: blue;
+  height: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row1 td:nth-child(odd) {
+  width: 152px;
+}
+
+.row1 td:nth-child(even) {
+  width: 120px;
+}
+
+.row2 {
+  color: red;
+  height: 50px;
+}
+
+.row3 {
+  color: green;
+  height: 100px;
+}
+
+.row3 td table {
+  color: #000;
+}
+
+.row4 {
+  color: orange;
+  height: 25px;
+}
+
+.row5 {
+  color: grey;
+  height: 25px;
+}
