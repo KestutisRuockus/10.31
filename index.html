@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lentelės</title>
+    <style>
+      table {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+      }
+
+      /* table tr:nth-child(1) {
+        height: 100px;
+      }
+      table tr:nth-child(2) {
+        height: 50px;
+      } */
+
+      .row1 {
+        height: 100px;
+      }
+      .row2 {
+        height: 150px;
+      }
+      .row3 {
+        height: 50px;
+      }
+      .row4 {
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- table row -->
+    <!-- table data -->
+    <!-- table>tr>td*6 -->
+    <table>
+      <thead>
+        <tr>
+          <th>primas</th>
+          <th>antras</th>
+          <th>trečias</th>
+          <th>ketvirtas</th>
+          <th>penktas</th>
+          <th>šeštas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row1">
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+
+        <tr class="row2">
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+
+        <tr class="row3">
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+
+        <tr class="row4">
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td colspan="2">5</td>
+          <td>6</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

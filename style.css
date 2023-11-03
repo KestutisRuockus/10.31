@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.month {
+  width: 220px;
+  height: 140px;
+  padding: 5px;
+  border: 1px solid #000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.day-free {
+  color: red;
+}
+
+.day {
+  font-weight: normal;
+  font-size: 10px;
+  text-align: end;
+}
+
+.month-days {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.month table {
+  display: flex;
+  justify-content: center;
+}
+
+tbody {
+  text-align: end;
+}
+
+table tr td {
+  width: 25px;
+}
+
+table tr {
+  display: flex;
+}
